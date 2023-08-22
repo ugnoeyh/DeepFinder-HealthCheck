@@ -4,8 +4,8 @@
 ---
 
 ## 📢소개
-시큐온클라우드에서 판매하는 DeepFinder WAF 상품의 텔레그램 모니터링 코드입니다.
-외부에서 실시간으로 모니터링 지원이 되지 않아 API를 지원하고 있어서 만들었습니다.
+시큐온클라우드에서 판매하는 DeepFinder WAF 상품의 텔레그램 모니터링 코드입니다.  
+외부에서 실시간으로 모니터링 지원이 되지 않고 있지만, 공식 API를 지원하고 있어서 만들었습니다.
  
 <br>
 
@@ -33,13 +33,13 @@ mute 한 IP 목록 나열
 ## 📮사용법
 ### 1. 모듈 설치
 pip install -r requirements.txt
-설치 모듈 : telebot==0.0.5, requests==2.28.2, urllib3==1.26.15
+설치 모듈 : telebot==0.0.5, requests==2.28.2, urllib3==1.26.15, python-dotenv==1.0.0
 
 #### 2. 실행
-python3 DeepFinder-Telegram.py
+python3 main.py
 
 백그라운드 실행시
-nohup python3 DeepFinder-Telegram.py &
+nohup python3 main.py &
 
 ## TO-DO List
 추후 지원 메신저 : Slack
